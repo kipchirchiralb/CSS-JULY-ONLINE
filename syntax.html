@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="syntax.css">
+
+</head>
+<body>
+    <h1>CSS - Cascading Style Sheets</h1>
+    <p> CSS is used to enhace the presentation/look of a web page , making it more user friendly(enhancing user experience) </p>
+
+    <pre>
+
+        selector {
+            property: value;
+            property: value;
+            color: red;
+            font-stye: italic;
+        }
+
+        h2{
+            color: green;
+        }
+
+    </pre>
+    <p> {} - declaration block - a group of declarations(property+value) that will apply to the selected element </p>
+    <p class="specialelements"> Selector - identify an element or a group of elements to aplly some sytyles</p>
+
+    <h2>Types of Selectors</h2>
+    <ul>
+        <li>
+            <h3>Element Name / Tag name Selector</h3>
+            <pre>
+                li{
+                    color: red;
+                }
+            </pre>
+        </li>
+        <li>
+            <h3 class="specialelements darkel hidden"> Class Selector </h3>
+            <pre>
+                .specialelements{
+                    color: pink;
+                }
+            </pre>
+        </li>
+        <li id="someel">
+            <h3 id="ownvalue">ID selector</h3>
+            <pre>
+                #someel{
+                    background: green;
+                }
+            </pre>
+        </li>
+        <li> Pseudo class selectors </li>
+        <li> Pseudo element selectors </li>
+        <li> Combinator selectors -- class and class, class and name ....  </li>
+        <p>-- Descendant , Child , Adjacent Sibling ...    </p>
+    </ul>
+
+
+    <h2> Where To Put the CSS </h2>
+    <ul>
+        <li style="color:purple">Inline CSS - using style attribute</li>
+        <li> Internal CSS -- within the html document, in a style element </li>
+        <li>External CSS -- writing styles in a .css file linked to a html page or multiple html pages </li>
+    </ul>
+
+    <style>
+          li{
+            color: red;
+         }
+    </style>
+
+</body>
+</html>
