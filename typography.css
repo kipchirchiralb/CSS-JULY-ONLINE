@@ -1,0 +1,31 @@
+h1{
+    color: rgb(0, 255, 0);
+    letter-spacing: 10px;
+    /* font-style: italic; */
+    font-family: 'Times New Roman';
+}
+/* rgb 11111111 0-9a-f (16 character) */
+/* rgb, hex, hsl,hwb */
+p{
+    word-spacing: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* Figure out using external font families in css */
+/* google fonts || downloaded fonts */
+
+
+/* 
+backgrounds and images,
+box model,
+css position property,
+- one project 
+css flex- layout model
+animations
+responsive design 
+- projects ** 
+- full websites
+*/
