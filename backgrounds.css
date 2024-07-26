@@ -1,0 +1,19 @@
+body{
+    background-color: hwb(0 0% 100%);
+    color: white;
+    background-image: linear-gradient(to right, rgb(185, 8, 8), rgb(154, 60, 60));
+
+    background-image:  url("bnb.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+/* online image || download an image */
+
+/* unsplash.com -- free image */
+
+img{
+    width: 1000px;
+    /* images are loaded onto the browser with their original dimensions(wXh px)  */
+}

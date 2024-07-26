@@ -1,8 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./RobotoMono-VariableFont_wght.ttf);
+}
+
+/* font-face, media, import, keyframes */
+
 h1{
     color: rgb(0, 255, 0);
     letter-spacing: 10px;
     /* font-style: italic; */
-    font-family: 'Times New Roman';
+    font-family: 'Roboto';
 }
 /* rgb 11111111 0-9a-f (16 character) */
 /* rgb, hex, hsl,hwb */
@@ -13,6 +20,8 @@ p{
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+    font-family: "Sevillana";
+
 }
 /* Figure out using external font families in css */
 /* google fonts || downloaded fonts */
@@ -20,9 +29,9 @@ p{
 
 /* 
 backgrounds and images,
-box model,
+box model, -- Style the recipe page
 css position property,
-- one project 
+- one project  
 css flex- layout model
 animations
 responsive design 
