@@ -1,0 +1,53 @@
+h1{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    bottom: 50px;
+   
+}
+
+div{
+    height: 400px;
+    background-color: lightblue;
+}
+
+img{
+    width: 100px;
+}
+
+#card{
+    background-image: url("./bnb.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+    border: 3px solid red;
+    position: relative;
+}
+
+#card img{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+#card h2{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+#card p{
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+/* POSITION ABSOLUTE ALLOWS MOVING AN ELEMENT TO A DESIRED LOCATION ON SCREEN IN RELATION TO IT PARENT ELEMENT -- THE PARENT ELEMENT MUST HAVE ITS POSITION PROPERTY CHANGED FROM STATIC--- RELATIVE */
+
+/* by default position for all elements is set to static */
+/* by changing the value of css position property, you can now use top, bottom, left and right properties on the element to sposition in a desired location on in relation to the available screen or other elements. */
