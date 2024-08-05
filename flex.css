@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    border: 3px solid blue;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+div{
+    border: 2px solid red;
+  width: 200px;
+}
+
+header{
+    background-color: #f58d05;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    background-color: pink;
+}
+a{
+    background-color: yellow;
+}
